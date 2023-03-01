@@ -12,8 +12,14 @@ body {
 
 h1 {
   font-family: 'Archivo', sans-serif;
+  weigth: bold;
 }
 
-form {
+form, p {
   font-family: 'Poppins', sans-serif;
+  weigth: regular;
+}
+
+p {
+  color: #42D3FF;
 }
