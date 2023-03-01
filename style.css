@@ -12,6 +12,7 @@
     height: 368px;
 
     position: absolute;
+    top: 0;
     z-index: -1;
     background: #121214;
   }
@@ -22,10 +23,14 @@
     font-family: 'Poppins', sans-serif;
   }
 
-
-  header {
+  .page {
     width: 736px;
     margin: auto;
+  }
+
+  header {
+    width: 319px;
+    margin-top: 74px;
   }
 
   header h1 {
@@ -36,8 +41,17 @@
     color: white;
   }
 
-header p {
+  header p {
     font-size: 16px;
     line-height: 26px;
     color: #42D3FF;
+
+    margin-top: 24px;
+  }
+
+  form {
+    margin-top: 38px;
+    background: #FAFAFC;
+    border-radius: 8px;
+    min-height: 300px;
   }
