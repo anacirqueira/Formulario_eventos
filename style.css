@@ -13,6 +13,7 @@ body {
 h1 {
   font-family: 'Archivo', sans-serif;
   weigth: bold;
+  color: white;
 }
 
 form, p {
