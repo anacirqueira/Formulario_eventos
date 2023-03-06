@@ -96,6 +96,10 @@
 
     font-size: 12px;
     line-height: 20px;
+    color: #a9a7af;
+  }
+
+  .input-wrapper label span:hover {
     color: #6c6a71;
   }
 
@@ -110,7 +114,7 @@
 
     font-size: 16px;
     line-height: 26px;
-    color: #6c6a71;
+    color: #a9a7af;
   }
 
   .input-wrapper textarea {
