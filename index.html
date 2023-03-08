@@ -66,9 +66,33 @@
 
           <div class="input-wrapper">
             <label for="event-password">Senha de acesso para os participantes <span>(mínimo 8 caracteres)</span></label>
-            <input type="text" id="event-senha" minlength="8"/>
+            <input type="password" id="event-senha" minlength="8"/>
           </div>
 
+        </div>
+      </fieldset>
+
+      <fieldset>
+        <div class="fieldset-wrapper">
+          <legend>Dia e hora</legend>
+
+          <div class="3-col">
+            <div class="input-wrapper">
+              <label for="event-date">Data</label>
+              <input type="date" id="event-date" />
+            </div>
+    
+            <div class="input-wrapper">
+              <label for="event-begin">Das</label>
+              <input type="text" id="event-begin" />
+            </div>
+
+            <div class="input-wrapper">
+              <label for="event-end">Até</label>
+              <input type="text" id="event-end" />
+            </div>
+          </div>
+            
         </div>
       </fieldset>
     </form>
